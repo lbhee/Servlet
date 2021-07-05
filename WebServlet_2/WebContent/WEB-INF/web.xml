@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>WebServlet_2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>path</servlet-name>
+  	<servlet-class>com.pathServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>path</servlet-name>
+  	<url-pattern>/java/study/*</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 
+  	<url-pattern>/simple</url-pattern> 원래는 이렇게 썼는데.
+  	
+  	<url-pattern>/java/study/*</url-pattern> 이렇게 쓰면 경로매핑도 가능하다!
+  	http://192.168.0.128:8090/WebServlet_2/java/study/board.jsp
+  	http://192.168.0.128:8090/WebServlet_2/java/study/home.html
+  	경로만 맞으면 뒤에 어떤 파일명이 와도 com.pathServlet 실행
+  	aaaaa이렇게만 써도(없는파일이여도) 경로가 맞으면 실행된다.
+   -->
+</web-app>

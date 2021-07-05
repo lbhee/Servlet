@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                        
+    
+    
+    
+    
+    <wb-module deploy-name="WebServlet_4_Memo_mvc">
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/"/>
+                                                
+        
+        
+        
+        
+        <property name="java-output-path" value="/WebServlet_4_Memo_mvc/build/classes"/>
+                
+        <property name="context-root" value="WebServlet_90_Memo_mvc_dbcp_helper_Interface"/>
+                                            
+    
+    
+    
+    
+    </wb-module>
+                    
+
+
+
+
+</project-modules>
